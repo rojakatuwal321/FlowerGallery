@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0 10%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  figure {
+    text-align: center;
+    margin: 0;
+  }
+  
+  #mainImage {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #imageCaption {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  li {
+    margin: 10px;
+    flex: 1 1 calc(20% - 20px); /* Adjust based on the number of thumbnails to fit in a row */
+    box-sizing: border-box;
+  }
+  
+  li img {
+    width: 100%; /* Make thumbnails responsive */
+    height: auto;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  li img:hover {
+    transform: scale(1.1); /* Add slight zoom effect on hover */
+  }
+  
+  li img.active {
+    border-color: #000; /* Highlight active thumbnail */
+    filter: grayscale(0%); /* Show active thumbnail in full color */
+  }
+  
