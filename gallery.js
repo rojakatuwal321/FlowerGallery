@@ -5,32 +5,32 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const images = [
       {
-        src: 'images/flowers-pink-large.jpg',
-        thumbnail: 'images/flowers-pink-small.jpg',
+        src: 'flowers-pink-large.jpg',
+        thumbnail: 'flowers-pink-small.jpg',
         alt: 'Pink flowers',
         caption: 'Beautiful pink flowers.'
       },
       {
-        src: 'images/flowers-purple-large.jpg',
-        thumbnail: 'images/flowers-purple-small.jpg',
+        src: 'flowers-purple-large.jpg',
+        thumbnail: 'flowers-purple-small.jpg',
         alt: 'Purple flowers',
         caption: 'Vibrant purple flowers.'
       },
       {
-        src: 'images/flowers-red-large.jpg',
-        thumbnail: 'images/flowers-red-small.jpg',
+        src: 'flowers-red-large.jpg',
+        thumbnail: 'flowers-red-small.jpg',
         alt: 'Red flowers',
         caption: 'Bright red flowers.'
       },
       {
-        src: 'images/flowers-white-large.jpg',
-        thumbnail: 'images/flowers-white-small.jpg',
+        src: 'flowers-white-large.jpg',
+        thumbnail: 'flowers-white-small.jpg',
         alt: 'White flowers',
         caption: 'Elegant white flowers.'
       },
       {
-        src: 'images/flowers-yellow-large.jpg',
-        thumbnail: 'images/flowers-yellow-small.jpg',
+        src: 'flowers-yellow-large.jpg',
+        thumbnail: 'flowers-yellow-small.jpg',
         alt: 'Yellow flowers',
         caption: 'Cheerful yellow flowers.'
       }
